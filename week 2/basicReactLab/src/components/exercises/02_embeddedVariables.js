@@ -3,10 +3,22 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 
 const Demo = () => {
-  const noLectures = [2, 4];
-  const noPracticals = [4, 6];
-  const name = ["DevOps", "Web Development"];
+  const course = "Applied Computing";
+  const modules = [
+    {
+      name: "DevOps",
+      noLectures: 2,
+      noPracticals: 2
+    },
+    {
+      name: "Web Development",
+      noLectures: 2,
+      noPracticals: 2
+    }
+  ];
   return (
+    <div>
+    <h1>{course}</h1>
     <table className="table table-bordered">
       <thead>
         <tr>
@@ -18,18 +30,19 @@ const Demo = () => {
 
       <tbody>
         <tr>
-          <td>{name[0]}</td>
-          <td>{noLectures[0]}</td>
-          <td>{noPracticals[0]}</td>
+          <td>{modules[0].name}</td>
+          <td>{modules[0].noLectures}</td>
+          <td>{modules[0].noPracticals}</td>
         </tr>
 
         <tr>
-          <td>{name[1]}</td>
-          <td>{noLectures[1]}</td>
-          <td>{noPracticals[1]}</td>
+          <td>{modules[1].name}</td>
+          <td>{modules[1].noLectures}</td>
+          <td>{modules[1].noPracticals}</td>
         </tr>
       </tbody>
     </table>
+    </div>
 
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 const Demo = (props) => {
     return (
-      <div > 
+      <div> 
         <h2>{`${props.heading} Languages`}</h2>
         <ul> 
           <li>{props.languages[0]}</li>
