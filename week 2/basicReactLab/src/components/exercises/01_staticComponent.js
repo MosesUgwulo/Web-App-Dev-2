@@ -7,20 +7,22 @@ const Demo = () => {
         <thead>
           <tr>
             <th>Name</th>
-            <th>No. lectures</th>
-            <th>No. practicals</th>
+            <th>No. of Lectures</th>
+            <th>No. of Practicals</th>
           </tr>
         </thead>
+
         <tbody>
           <tr>
             <td>DevOps</td>
             <td>2</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>Web App Dev 2</td>
-            <td>2</td>
             <td>4</td>
+          </tr>
+
+          <tr>
+            <td>Web Development</td>
+            <td>4</td>
+            <td>6</td>
           </tr>
         </tbody>
       </table>
