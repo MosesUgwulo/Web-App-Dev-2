@@ -16,6 +16,7 @@ const Demo = () => {
       noPracticals: 2
     }
   ];
+  
   return (
     <div>
     <h1>{course}</h1>
