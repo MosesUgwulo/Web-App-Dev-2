@@ -9,7 +9,7 @@ const Course = (props) => {
   return (
     <>
       <h2>{`${props.title} modules table`} </h2>
-      <table className="striped bordered hover">
+      <table className="table table-bordered">
         <thead>
           <tr>
             <th>Name</th>
