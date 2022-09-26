@@ -3,7 +3,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 const Demo = props => {
   const list = props.modules.map((module, index) => {
-    console.log(module);
+    
     return (
       <tr key={index}>
         <td>{module.name}</td>
